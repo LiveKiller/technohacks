@@ -86,8 +86,6 @@ def get_balance(account_id, name, cursor=None):
             connection.close()
         return None
 
-# Function to update account balance
-# Function to update account balance
 def update_balance(account_id, name, amount):
     connection = create_connection()
     if connection:
